@@ -1,0 +1,2 @@
+define(["require","exports","react","spectrum/icon_form"],function(e,r,t,i){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),r.FieldCounter=function(e){var r=e.isSending,n=e.fieldsLeft;if(r)return t.createElement("div",{className:"esignature-field-counter"},"PREPARING DOCUMENT");var l=n&&n>1?"fields":"field",c=0===n?"All required fields complete":n+" required "+l+" left";return t.createElement("div",{className:"esignature-field-counter"},0===n?t.createElement(i.IconForm,{name:"check"}):null,c)}});
+//# sourceMappingURL=index.min.js-vfl_26iji.map
